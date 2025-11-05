@@ -1,3 +1,10 @@
+# LAB 5:
+# extending our assignment to 
+Modify bmap() so that it implements a doubly-indirect block, in addition to direct blocks and a singly-indirect block. You'll have to have only 11 direct blocks, rather than 12, to make the new doubly-indirect block; you're not allowed to change the size of an on-disk inode. The first 11 elements of ip->addrs[] should be direct blocks; the 12th should be a singly-indirect block (just like the current one); the 13th should be your new doubly-indirect block. You are done with this when bigfile writes successfully.
+
+
+
+
 # xv6-pi5 Documentation
 
 ## Overview
